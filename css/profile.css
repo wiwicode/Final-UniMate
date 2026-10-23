@@ -1,0 +1,10 @@
+.profile-card { padding: clamp(22px, 5vw, 38px); }
+.profile-heading { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; }
+.profile-placeholder { display: grid; place-items: center; width: 58px; height: 58px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface-raised); color: var(--muted); font-size: 22px; }
+.profile-heading img.profile-placeholder { object-fit: cover; }
+.profile-heading h2 { margin: 0; font: 700 23px var(--display); }
+.profile-heading p { margin: 3px 0 0; color: var(--muted); }
+.profile-fields { display: grid; gap: 0; }
+.profile-fields div { padding: 14px 0; border-top: 1px solid var(--line); }
+.profile-fields dt { color: var(--muted); font-size: 11px; }
+.profile-fields dd { margin: 3px 0 0; color: var(--text); }

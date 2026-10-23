@@ -1,0 +1,17 @@
+.page-actions { display: flex; align-items: center; gap: 10px; }
+.back-link { color: var(--muted); text-decoration: none; font-size: 13px; }
+.back-link:hover { color: var(--text); }
+.category-options { display: flex; flex-wrap: wrap; gap: 8px; }
+.category-options input { position: absolute; opacity: 0; pointer-events: none; }
+.category-options label { border: 1px solid var(--line); border-radius: 999px; padding: 8px 11px; color: var(--muted); font-size: 12px; cursor: pointer; }
+.category-options input:checked + label { border-color: var(--primary); background: var(--primary-soft); color: var(--primary-strong); }
+.form-heading { margin: 0 0 20px; font: 700 20px var(--display); }
+.activity-detail { padding: clamp(20px, 4vw, 32px); }
+.activity-detail h2 { margin: 10px 0 6px; font: 700 clamp(25px, 4vw, 32px) var(--display); }
+.detail-list { display: grid; gap: 12px; margin: 26px 0; padding: 17px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.detail-list div { display: grid; grid-template-columns: 88px 1fr; gap: 10px; }
+.detail-list dt { color: var(--muted); font-size: 12px; }
+.detail-list dd { margin: 0; color: var(--text); font-size: 13px; }
+.activity-detail h3 { margin: 25px 0 7px; font: 700 16px var(--display); }
+.activity-detail .description { margin: 0; color: var(--muted); line-height: 1.6; }
+.participant-empty { margin: 10px 0 22px; color: var(--muted); font-size: 13px; }

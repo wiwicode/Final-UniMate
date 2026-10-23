@@ -1,0 +1,9 @@
+.tea-intro { padding: 25px; margin-bottom: 17px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface); }
+.tea-intro h2 { margin: 0; font: 700 25px var(--display); }
+.tea-intro p { margin: 5px 0 16px; color: var(--muted); }
+.tea-tabs { display: flex; gap: 7px; margin: 0 0 17px; }
+.tea-tabs button { border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--muted); padding: 7px 11px; font-size: 11px; }
+.tea-tabs button.active { border-color: var(--primary); color: var(--primary-strong); background: var(--primary-soft); }
+.tea-form .modal-card { max-height: calc(100vh - 30px); overflow: auto; }
+.tea-form textarea { min-height: 120px; }
+.moderation-note { margin-top: 14px; color: var(--subtle); font-size: 11px; }

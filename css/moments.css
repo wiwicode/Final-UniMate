@@ -1,0 +1,4 @@
+.moment-composer { margin-bottom: 17px; }
+.moment-composer h2 { margin: 0 0 16px; font: 700 18px var(--display); }
+.moment-tools { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
+.upload-note { color: var(--subtle); font-size: 11px; }

@@ -1,0 +1,23 @@
+:root {
+  --background: #F8FAF9;
+  --bg: var(--background);
+  --surface: #FFFFFF;
+  --surface-raised: #FFFFFF;
+  --surface-hover: #F1F7F3;
+  --line: #E3EAE6;
+  --text: #17211D;
+  --muted: #6B756F;
+  --subtle: #8B9690;
+  --primary: #34D399;
+  --primary-strong: #16A34A;
+  --primary-soft: #D1FAE5;
+  --danger: #D05D70;
+  --success: #16A34A;
+  --font: "DM Sans", system-ui, sans-serif;
+  --display: "Outfit", var(--font);
+  --radius-sm: 9px;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --shadow: 0 14px 35px rgba(23, 33, 29, .08);
+  --nav-height: 72px;
+}
